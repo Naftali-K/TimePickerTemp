@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTimePickerStyle" parent="@style/ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="title">false</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#BB88BB</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:background">@drawable/custom_time_picker1</item>
+    </style>
+
+    <style name="UploadBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/UploadBottomSheetStyle</item>
+    </style>
+
+    <style name="UploadBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>
